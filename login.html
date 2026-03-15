@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTM.L</title>
+    <style>
+        .kids{
+            text-align: center;
+            background-color: #b1afaf;
+            color: #ffffff;
+            padding: 50px;
+            border-radius: 20px;
+            margin-left: 500px;
+            margin-right: 400px;
+            margin-top: 50px;
+            box-shadow: 0 0 10px 6px rgb(14, 14, 14);
+        }
+        #number{
+            width: 170px;
+            padding: 5px;
+            border-radius: 5px;
+            
+        }
+        body{
+            background-color: #ffffff;
+        }
+        select{
+            width: 170px;
+            padding: 5px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        #text{
+            padding: 5px;
+            border-radius: 5px;
+        }
+    .btn{
+            padding: 5px;
+            border-radius: 10px;
+            background-color: rgb(212, 213, 212);
+            border: 1px solid rgb(148, 148, 148);
+            color: #ffffff;
+            transition: 0.5s;
+            text-decoration: none;
+            margin: 30px;
+        }
+
+        .btn:hover{
+            background-color: #000000;
+            color: greenyellow;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="kids">
+        <h1>Apple login</h1>
+        <form>
+            <label>User Name:</label><br>
+            <input type="text" id="text" placeholder="Enter your name"><br>
+            <label>Your Age:</label><br>
+            <input type="number"  id="number" placeholder="Enter your age" min="5" max="30"> <br>
+            <label>Colour check:</label><br>
+            <select name="color" id="color">
+                <option value="yellow">yellow</option>
+                <option value="blue">Blue</option>
+                <option value="Green">Green</option>
+                <option value="Black">Black</option>
+                <option value="White">White</option>
+                <option value="pink">pink</option>
+                <option value="Gray">Gray</option>
+            </select><br>
+            <a href="main.html" class="btn">Submit</a>
+        </form>
+    </div>
+</body>
+</html>
